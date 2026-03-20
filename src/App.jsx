@@ -118,7 +118,7 @@ export default function App() {
             <h1 className="shadow-text max-w-4xl text-5xl font-black uppercase leading-[0.9] tracking-tight text-white sm:text-6xl md:text-8xl lg:text-[7rem]">
               Boris
               <br />
-              Sovič
+              <span className="lg:text-[11rem]">Sovič</span>
             </h1>
 
             <div className="mt-8 max-w-3xl text-2xl font-black uppercase leading-none sm:text-3xl md:text-4xl">
