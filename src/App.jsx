@@ -73,6 +73,8 @@ const socialLinks = [
 
 const portrait = './boris_sovic.jpg';
 const archivePhoto = './boris_sovic_portrait.jpg';
+const SD = './SD_red.png';
+const maribor = './grb.svg';
 
 export default function App() {
   return (
@@ -107,7 +109,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className="relative mx-auto grid max-w-7xl gap-10 px-6 pb-14 pt-16 md:grid-cols-[1.1fr_.9fr] md:items-end md:pt-28">
+        <div className="relative mx-auto grid max-w-7xl gap-10 px-6 pb-14 pt-16 md:grid-cols-[1.1fr_.9fr] md:items-center md:pt-15">
           <div className="z-10">
             <div className="mb-6 inline-block rotate-[-5deg] bg-[#90a8c2] px-5 py-3 text-lg font-black uppercase tracking-wide text-white shadow-lg md:text-2xl">
               Za Maribor
@@ -136,19 +138,19 @@ export default function App() {
             <div className="relative w-full max-w-md rounded-[2rem] border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
               <div className="absolute -inset-3 -z-10 rounded-[2rem] bg-[#24377e] opacity-70 blur-2xl" />
               <div className="overflow-hidden rounded-[1.5rem] bg-gradient-to-b from-white/10 to-transparent">
-                <img
-                  src={portrait}
-                  alt="Boris Sovič"
+                <video
+                  src="./boris_sovic.mp4"
                   className="h-auto w-full object-cover"
+                  controls
+                  loop
+                  playsInline
                 />
               </div>
               <div className="mt-4 flex items-center justify-between gap-4">
                 <div className="text-2xl font-black leading-none md:text-3xl">
                   Boris Sovič
                 </div>
-                <div className="border-[6px] border-white bg-[#e32238] px-5 py-3 text-3xl font-black uppercase leading-none text-white shadow-xl">
-                  SD
-                </div>
+                <img src={SD} alt="Socialni demokrati" className="h-[80px]" />
               </div>
             </div>
           </div>
@@ -164,14 +166,14 @@ export default function App() {
                   <div className="inline-block bg-[#e32238] px-4 py-2 text-sm font-black uppercase tracking-wide text-white md:text-base">
                     Podpri kampanjo zdaj
                   </div>
-                  <h2 className="mt-5 text-3xl font-black uppercase leading-tight text-white md:text-6xl">
+                  <h2 className="mt-5 text-3xl font-black uppercase leading-tight text-white md:text-4xl">
                     Pridi volit.
                     <br />
                     Deli vsebino.
                     <br />
                     Vključi se v pogovor.
                   </h2>
-                  <p className="mt-5 max-w-3xl text-lg leading-relaxed text-white/85 md:text-2xl">
+                  <p className="mt-5 max-w-3xl text-lg leading-relaxed text-white/85 md:text-xl">
                     Pridi volit 22.3. in pomagaj, da Maribor dobi močno
                     zastopstvo v državnem zboru. Deli vsebino iz Facebook in
                     Instagram strani Borisa Soviča ter se vključi v skupino
@@ -213,10 +215,10 @@ export default function App() {
         </section>
 
         <section className="relative overflow-hidden bg-[#173564] section-dot-bg">
-          <div className="brush absolute left-0 top-20 h-20 w-full opacity-60" />
+          {/* <div className="brush absolute left-0 top-0 h-20 w-full opacity-60" /> */}
           <div className="mx-auto grid max-w-6xl gap-10 px-6 py-18 md:grid-cols-[1fr_.95fr] md:items-center md:py-20">
             <div>
-              <h3 className="text-4xl font-black uppercase leading-tight md:text-6xl">
+              <h3 className="text-4xl font-black uppercase leading-tight md:text-5xl">
                 Od študentskega voditelja
                 <br />
                 do <span className="text-[#e32238]">župana mesta</span>
@@ -239,7 +241,7 @@ export default function App() {
             <div className="flex justify-center md:justify-end">
               <div className="rotate-[4deg] overflow-hidden rounded-md bg-white p-4 shadow-2xl">
                 <img
-                  src={archivePhoto}
+                  src={portrait}
                   alt="Arhivska fotografija Borisa Soviča"
                   className="h-auto w-full max-w-sm object-cover"
                 />
@@ -347,22 +349,22 @@ export default function App() {
 
         <section className="bg-[#8ea8d5] text-[#24377e] section-dot-bg">
           <div className="mx-auto max-w-6xl px-6 py-18 md:py-20">
-            <h3 className="text-center text-4xl font-black uppercase leading-tight md:text-7xl">
+            <h3 className="text-center text-4xl font-black uppercase leading-tight md:text-6xl">
               Maribor potrebuje
             </h3>
-            <div className="mx-auto mt-4 inline-block bg-[#5f6a9c] px-5 py-3 text-center text-4xl font-black uppercase text-[#e32238] shadow-xl md:text-7xl">
+            <div className="mx-auto mt-4 w-full inline-block bg-[#5f6a9c] px-5 py-3 text-center text-4xl font-black uppercase text-[#e32238] shadow-xl md:text-6xl">
               Močno zastopstvo
             </div>
-            <p className="mt-3 text-center text-2xl font-black uppercase md:text-5xl">
+            <p className="mt-3 text-center text-2xl font-black uppercase md:text-4xl">
               v državnem zboru
             </p>
 
-            <div className="mt-12 grid gap-8 md:grid-cols-[1.1fr_.9fr] md:items-end">
+            <div className="mt-12 grid gap-8 md:grid-cols-[2fr_1fr] md:items-end">
               <div className="space-y-4">
                 {needs.map((item) => (
                   <div
                     key={item}
-                    className="text-2xl font-black uppercase leading-tight text-white md:text-4xl"
+                    className="text-2xl font-black uppercase leading-tight text-white md:text-3xl"
                   >
                     <span className="mr-3 text-[#e32238]">✓</span>
                     {item}
@@ -371,29 +373,7 @@ export default function App() {
               </div>
 
               <div className="flex flex-col items-center md:items-end">
-                <img
-                  src={portrait}
-                  alt="Boris Sovič"
-                  className="w-full max-w-sm rounded-[1.5rem] object-cover shadow-2xl"
-                />
-                <div className="mt-6 w-full max-w-sm">
-                  <div className="flex items-end justify-between gap-4 text-white">
-                    <div className="text-4xl font-black uppercase leading-none md:text-6xl">
-                      Boris<div className="text-2xl md:text-4xl">za</div>
-                    </div>
-                    <div className="text-right text-4xl font-black uppercase leading-none md:text-6xl">
-                      Sovič<div className="text-2xl md:text-4xl">Maribor</div>
-                    </div>
-                  </div>
-                  <div className="mt-6 flex items-center justify-between gap-4">
-                    <div className="rounded-full bg-[#e32238] px-5 py-4 text-2xl font-black uppercase text-white shadow-xl md:text-4xl">
-                      Volitve 22.3.
-                    </div>
-                    <div className="border-[6px] border-white bg-[#e32238] px-5 py-3 text-3xl font-black uppercase leading-none text-white shadow-xl">
-                      SD
-                    </div>
-                  </div>
-                </div>
+                <img src={maribor} alt="Boris Sovič" className="w-[70%]" />
               </div>
             </div>
           </div>
