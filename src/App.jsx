@@ -1,7 +1,7 @@
 const LINKS = {
   facebook: 'https://www.facebook.com/profile.php?id=100046824773381&sk=about',
   instagram: 'https://www.instagram.com/boris.sovic2026/',
-  telegram: '#',
+  telegram: 'https://t.me/borissovic2026',
 };
 
 const profileFacts = [
