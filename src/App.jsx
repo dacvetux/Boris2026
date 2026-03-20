@@ -59,8 +59,8 @@ const socialLinks = [
   { label: 'Telegram', href: LINKS.telegram, className: 'bg-[#90a8c2] text-[#0f1535]' },
 ];
 
-const portrait = '/boris-placeholder.svg';
-const archivePhoto = '/boris-placeholder.svg';
+const portrait = './boris-placeholder.svg';
+const archivePhoto = './boris-placeholder.svg';
 
 export default function App() {
   return (
