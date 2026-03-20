@@ -159,7 +159,7 @@ export default function App() {
 
       <main>
         <section className="border-b border-white/10 bg-[#0f1535]">
-          <div className="mx-auto max-w-7xl px-6 py-10 md:py-14">
+          <div className="mx-auto max-w-7xl px-6 py-16 md:py-14">
             <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-2xl backdrop-blur-sm md:p-10">
               <div className="grid gap-8 lg:grid-cols-[1.1fr_.9fr] lg:items-center">
                 <div>
@@ -201,7 +201,7 @@ export default function App() {
           <div className="absolute inset-0 opacity-20">
             <div className="section-dot-bg h-full w-full" />
           </div>
-          <div className="relative mx-auto max-w-6xl px-6 py-18 text-center md:py-24">
+          <div className="relative mx-auto max-w-6xl px-6 py-24 text-center md:py-24">
             <h2 className="text-4xl font-black uppercase leading-tight md:text-6xl">
               Kdo je Boris Sovič?
             </h2>
@@ -216,7 +216,7 @@ export default function App() {
 
         <section className="relative overflow-hidden bg-[#173564] section-dot-bg">
           {/* <div className="brush absolute left-0 top-0 h-20 w-full opacity-60" /> */}
-          <div className="mx-auto grid max-w-6xl gap-10 px-6 py-18 md:grid-cols-[1fr_.95fr] md:items-center md:py-20">
+          <div className="mx-auto grid max-w-6xl gap-10 px-6 py-24 md:grid-cols-[1fr_.95fr] md:items-center md:py-20">
             <div>
               <h3 className="text-4xl font-black uppercase leading-tight md:text-5xl">
                 Od študentskega voditelja
@@ -251,7 +251,7 @@ export default function App() {
         </section>
 
         <section className="bg-[#596187] section-dot-bg">
-          <div className="mx-auto max-w-6xl px-6 py-18 md:py-20">
+          <div className="mx-auto max-w-6xl px-6 py-24 md:py-20">
             <div className="grid gap-5 md:grid-cols-2">
               {roles.map((item, index) => (
                 <div
@@ -279,7 +279,7 @@ export default function App() {
             </div>
           </div> */}
 
-          <div className="mx-auto max-w-5xl px-6 py-18 text-center md:py-24">
+          <div className="mx-auto max-w-5xl px-6 py-24 text-center md:py-24">
             <h3 className="text-3xl font-black uppercase text-[#8cd7a2] md:text-5xl">
               V njegovih mandatih:
             </h3>
@@ -310,7 +310,7 @@ export default function App() {
         </section>
 
         <section className="bg-[#1b1018] section-dot-bg">
-          <div className="mx-auto max-w-6xl px-6 py-18 md:py-20">
+          <div className="mx-auto max-w-6xl px-6 py-24 md:py-20">
             <h3 className="text-center text-4xl font-black uppercase text-[#e32238] md:text-6xl">
               Danes?
             </h3>
@@ -348,7 +348,7 @@ export default function App() {
         </section>
 
         <section className="bg-[#8ea8d5] text-[#24377e] section-dot-bg">
-          <div className="mx-auto max-w-6xl px-6 py-18 md:py-20">
+          <div className="mx-auto max-w-6xl px-6 py-24 md:py-20">
             <h3 className="text-center text-4xl font-black uppercase leading-tight md:text-6xl">
               Maribor potrebuje
             </h3>
