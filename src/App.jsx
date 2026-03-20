@@ -1,6 +1,6 @@
 const LINKS = {
-  facebook: '#',
-  instagram: '#',
+  facebook: 'https://www.facebook.com/profile.php?id=100046824773381&sk=about',
+  instagram: 'https://www.instagram.com/boris.sovic2026/',
   telegram: '#',
 };
 
