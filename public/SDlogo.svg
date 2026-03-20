@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (1:1.4.3+202512261035+0d15f75042)"
+   sodipodi:docname="SDlogo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.89619809"
+     inkscape:cx="397.23361"
+     inkscape:cy="560.70193"
+     inkscape:window-width="3440"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g121"
+       transform="matrix(2.039462,0,0,2.039462,-2128.1492,-41.227001)">
+      <path
+         id="path69"
+         d="m 354.4143,200.2331 c 3.8129,0 6.3224,-2.1512 6.3224,-5.8014 v -0.0649 c 0,-3.6827 -2.5095,-5.7685 -6.3224,-5.7685 h -2.5744 v 11.6348 z m -8.8962,-17.24 h 8.7012 c 8.1808,0 12.9716,4.8886 12.9716,11.4715 v 0.0655 c 0,6.5835 -4.7262,11.2765 -12.8415,11.2765 h -8.8313 z m -10.8184,-0.3915 c 5.5406,0 9.2228,2.7701 9.2228,7.4308 v 0.0655 c 0,4.2689 -3.259,5.9635 -8.4731,7.1044 -3.1943,0.7175 -3.9767,1.173 -3.9767,2.2164 v 0.065 c 0,0.8472 0.75,1.4666 2.2813,1.4666 2.0217,0 4.3019,-0.7495 6.3879,-2.2484 l 3.1618,4.4645 c -2.4772,1.988 -5.508,3.0314 -9.3864,3.0314 -5.4757,0 -8.8319,-3.064 -8.8319,-7.3004 v -0.0654 c 0,-4.6602 3.7474,-6.029 8.6037,-7.1374 3.1289,-0.75 3.8784,-1.2384 3.8784,-2.2158 v -0.0661 c 0,-0.9771 -0.9128,-1.5638 -2.6402,-1.5638 -2.6399,0 -5.1157,0.945 -7.3979,2.7374 l -3.5206,-4.2041 c 2.8366,-2.5089 6.6501,-3.7806 10.6909,-3.7806 z m 45.0201,45.9182 h -68.2399 c 0,-22.6038 0,-45.6355 0,-68.2399 h 68.2399 c 0,22.6044 0,45.6361 0,68.2399 z m -62.6669,-5.5729 h 57.094 v -57.094 h -57.094 z"
+         style="fill:#e3000f;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,634.4,345.6)" />
+    </g>
+  </g>
+</svg>
